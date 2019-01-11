@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	  <meta charset="utf-8"/>
+		<title> Login/Signup </title>
+		<script src="jsFile.js"></script>
+		<link href="style.css" type="text/css" rel="stylesheet"/>
+	</head>
+	<body background="youtube.gif">
+		<input type='checkbox' id='form-switch'>
+		<form id='login-form' onsubmit="getUserNameAndPassword()" action="">
+  			UserName : <input type="text" placeholder="Username" id="loginUsername" required>
+  			Password : <input type="password" placeholder="Password" id="loginPassword" required>
+  			<button type='submit'>Login</button>
+  			<label for='form-switch'><span>Signup</span></label>
+		</form>
+	
+		<form id='register-form' onsubmit="storeUserNameAndPassword()" action="">
+ 	 		UserName : <input type="text" placeholder="UserName" id="signupUsername" required>
+  			Email Id : <input type="email" placeholder="Email" id="signupEmail" required>
+  			Password : <input type="password" placeholder="Password" id="signupPassword" required>
+  			<button type='submit'>Signup</button>
+  			<label for='form-switch'>Already Member ? Sign In Now..</label>
+			
+		</form>
+
+	</body>
+</html>
