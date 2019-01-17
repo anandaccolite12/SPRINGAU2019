@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.styled-select {
+  background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;
+  height: 29px;
+  overflow: hidden;
+  width: 240px;
+}
+
+.styled-select select {
+  background: transparent;
+  border: none;
+  font-size: 14px;
+  height: 29px;
+  padding: 5px; /* If you add too much padding here, the options won't show in IE */
+  width: 268px;
+}
+
+.styled-select.slate {
+  background: url(http://i62.tinypic.com/2e3ybe1.jpg) no-repeat right center;
+  height: 34px;
+  width: 240px;
+}
+
+.styled-select.slate select {
+  border: 1px solid #ccc;
+  font-size: 16px;
+  height: 34px;
+  width: 268px;
+}
