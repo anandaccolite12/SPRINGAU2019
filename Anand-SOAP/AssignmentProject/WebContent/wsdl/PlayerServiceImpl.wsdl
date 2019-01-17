@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions targetNamespace="http://player.pkg.com" xmlns:apachesoap="http://xml.apache.org/xml-soap" xmlns:impl="http://player.pkg.com" xmlns:intf="http://player.pkg.com" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<!--WSDL created by Apache Axis version: 1.4
+Built on Apr 22, 2006 (06:55:48 PDT)-->
+ <wsdl:types>
+  <schema elementFormDefault="qualified" targetNamespace="http://player.pkg.com" xmlns="http://www.w3.org/2001/XMLSchema">
+   <element name="getPlayer">
+    <complexType>
+     <sequence>
+      <element name="id" type="xsd:int"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="getPlayerResponse">
+    <complexType>
+     <sequence>
+      <element name="getPlayerReturn" type="impl:Player"/>
+     </sequence>
+    </complexType>
+   </element>
+   <complexType name="Player">
+    <sequence>
+     <element name="age" type="xsd:int"/>
+     <element name="game" nillable="true" type="xsd:string"/>
+     <element name="id" type="xsd:int"/>
+     <element name="name" nillable="true" type="xsd:string"/>
+    </sequence>
+   </complexType>
+   <element name="updatePlayer">
+    <complexType>
+     <sequence>
+      <element name="player" type="impl:Player"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="updatePlayerResponse">
+    <complexType>
+     <sequence>
+      <element name="updatePlayerReturn" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="addPlayer">
+    <complexType>
+     <sequence>
+      <element name="p" type="impl:Player"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="addPlayerResponse">
+    <complexType>
+     <sequence>
+      <element name="addPlayerReturn" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="getAllPlayers">
+    <complexType/>
+   </element>
+   <element name="getAllPlayersResponse">
+    <complexType>
+     <sequence>
+      <element maxOccurs="unbounded" name="getAllPlayersReturn" type="impl:Player"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="deletePlayer">
+    <complexType>
+     <sequence>
+      <element name="id" type="xsd:int"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="deletePlayerResponse">
+    <complexType>
+     <sequence>
+      <element name="deletePlayerReturn" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+  </schema>
+ </wsdl:types>
+
+   <wsdl:message name="getPlayerResponse">
+
+      <wsdl:part element="impl:getPlayerResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="getAllPlayersResponse">
+
+      <wsdl:part element="impl:getAllPlayersResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="updatePlayerRequest">
+
+      <wsdl:part element="impl:updatePlayer" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="deletePlayerRequest">
+
+      <wsdl:part element="impl:deletePlayer" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="updatePlayerResponse">
+
+      <wsdl:part element="impl:updatePlayerResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="addPlayerResponse">
+
+      <wsdl:part element="impl:addPlayerResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="getAllPlayersRequest">
+
+      <wsdl:part element="impl:getAllPlayers" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="addPlayerRequest">
+
+      <wsdl:part element="impl:addPlayer" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="deletePlayerResponse">
+
+      <wsdl:part element="impl:deletePlayerResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="getPlayerRequest">
+
+      <wsdl:part element="impl:getPlayer" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:portType name="PlayerServiceImpl">
+
+      <wsdl:operation name="getPlayer">
+
+         <wsdl:input message="impl:getPlayerRequest" name="getPlayerRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:getPlayerResponse" name="getPlayerResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="updatePlayer">
+
+         <wsdl:input message="impl:updatePlayerRequest" name="updatePlayerRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:updatePlayerResponse" name="updatePlayerResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="addPlayer">
+
+         <wsdl:input message="impl:addPlayerRequest" name="addPlayerRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:addPlayerResponse" name="addPlayerResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="getAllPlayers">
+
+         <wsdl:input message="impl:getAllPlayersRequest" name="getAllPlayersRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:getAllPlayersResponse" name="getAllPlayersResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="deletePlayer">
+
+         <wsdl:input message="impl:deletePlayerRequest" name="deletePlayerRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:deletePlayerResponse" name="deletePlayerResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+   </wsdl:portType>
+
+   <wsdl:binding name="PlayerServiceImplSoapBinding" type="impl:PlayerServiceImpl">
+
+      <wsdlsoap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+
+      <wsdl:operation name="getPlayer">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="getPlayerRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="getPlayerResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="updatePlayer">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="updatePlayerRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="updatePlayerResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="addPlayer">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="addPlayerRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="addPlayerResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="getAllPlayers">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="getAllPlayersRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="getAllPlayersResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="deletePlayer">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="deletePlayerRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="deletePlayerResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+   </wsdl:binding>
+
+   <wsdl:service name="PlayerServiceImplService">
+
+      <wsdl:port binding="impl:PlayerServiceImplSoapBinding" name="PlayerServiceImpl">
+
+         <wsdlsoap:address location="http://localhost:8081/AssignmentProject/services/PlayerServiceImpl"/>
+
+      </wsdl:port>
+
+   </wsdl:service>
+
+</wsdl:definitions>

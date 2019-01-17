@@ -1,0 +1,48 @@
+<!-- Use this file to deploy some handlers/chains and services      -->
+<!-- Two ways to do this:                                           -->
+<!--   java org.apache.axis.client.AdminClient deploy.wsdd          -->
+<!--      after the axis server is running                          -->
+<!-- or                                                             -->
+<!--   java org.apache.axis.utils.Admin client|server deploy.wsdd   -->
+<!--      from the same directory that the Axis engine runs         -->
+
+<deployment
+    xmlns="http://xml.apache.org/axis/wsdd/"
+    xmlns:java="http://xml.apache.org/axis/wsdd/providers/java">
+
+  <!-- Services from PlayerServiceImplService WSDL service -->
+
+  <service name="PlayerServiceImpl" provider="java:RPC" style="wrapped" use="literal">
+      <parameter name="wsdlTargetNamespace" value="http://player.pkg.com"/>
+      <parameter name="wsdlServiceElement" value="PlayerServiceImplService"/>
+      <parameter name="schemaQualified" value="http://player.pkg.com"/>
+      <parameter name="wsdlServicePort" value="PlayerServiceImpl"/>
+      <parameter name="className" value="com.pkg.player.PlayerServiceImplSoapBindingImpl"/>
+      <parameter name="wsdlPortType" value="PlayerServiceImpl"/>
+      <parameter name="typeMappingVersion" value="1.2"/>
+      <operation name="getPlayer" qname="operNS:getPlayer" xmlns:operNS="http://player.pkg.com" returnQName="retNS:getPlayerReturn" xmlns:retNS="http://player.pkg.com" returnType="rtns:Player" xmlns:rtns="http://player.pkg.com" soapAction="" >
+        <parameter qname="pns:id" xmlns:pns="http://player.pkg.com" type="tns:int" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+      </operation>
+      <operation name="updatePlayer" qname="operNS:updatePlayer" xmlns:operNS="http://player.pkg.com" returnQName="retNS:updatePlayerReturn" xmlns:retNS="http://player.pkg.com" returnType="rtns:string" xmlns:rtns="http://www.w3.org/2001/XMLSchema" soapAction="" >
+        <parameter qname="pns:player" xmlns:pns="http://player.pkg.com" type="tns:Player" xmlns:tns="http://player.pkg.com"/>
+      </operation>
+      <operation name="addPlayer" qname="operNS:addPlayer" xmlns:operNS="http://player.pkg.com" returnQName="retNS:addPlayerReturn" xmlns:retNS="http://player.pkg.com" returnType="rtns:string" xmlns:rtns="http://www.w3.org/2001/XMLSchema" soapAction="" >
+        <parameter qname="pns:p" xmlns:pns="http://player.pkg.com" type="tns:Player" xmlns:tns="http://player.pkg.com"/>
+      </operation>
+      <operation name="getAllPlayers" qname="operNS:getAllPlayers" xmlns:operNS="http://player.pkg.com" returnQName="retNS:getAllPlayersReturn" xmlns:retNS="http://player.pkg.com" returnType="rtns:Player" xmlns:rtns="http://player.pkg.com" soapAction="" >
+      </operation>
+      <operation name="deletePlayer" qname="operNS:deletePlayer" xmlns:operNS="http://player.pkg.com" returnQName="retNS:deletePlayerReturn" xmlns:retNS="http://player.pkg.com" returnType="rtns:string" xmlns:rtns="http://www.w3.org/2001/XMLSchema" soapAction="" >
+        <parameter qname="pns:id" xmlns:pns="http://player.pkg.com" type="tns:int" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+      </operation>
+      <parameter name="allowedMethods" value="getPlayer updatePlayer addPlayer deletePlayer getAllPlayers"/>
+
+      <typeMapping
+        xmlns:ns="http://player.pkg.com"
+        qname="ns:Player"
+        type="java:com.pkg.player.Player"
+        serializer="org.apache.axis.encoding.ser.BeanSerializerFactory"
+        deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory"
+        encodingStyle=""
+      />
+  </service>
+</deployment>
