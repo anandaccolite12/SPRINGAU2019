@@ -1,0 +1,600 @@
+			=======Starting simulaion of Taxi Management System=====
+
+Creating taxi's
+New Taxi name : Taxi-1
+Taxi-1 added time : 22:14:18
+New Taxi name : Taxi-2
+Taxi-2 added time : 22:14:18
+New Taxi name : Taxi-3
+Taxi-3 added time : 22:14:18
+New Taxi name : Taxi-4
+Taxi-4 added time : 22:14:18
+New Taxi name : Taxi-5
+Taxi-5 added time : 22:14:18
+
+		*******Taxi Queue thread started*******
+		*******Passenger Queue thread started*******
+
+	 Adding new passenger : 22:14:21
+
+Passenger-1 looking for a destination KRPURAM
+Passenger-1 destination : KRPURAM
+Taxi-1 destination : null
+Taxi-1 is empty, setting destination KRPURAM by 1st passenger Passenger-1
+Taxi-1 count is : 1
+
+	 Adding new passenger : 22:14:24
+
+Passenger-2 looking for a destination MGROAD
+Passenger-2 destination : MGROAD
+Taxi-1 destination : KRPURAM
+Taxi-1 is unable to allocate for Passenger-2 with the location MGROAD
+Passenger-2 destination : MGROAD
+Taxi-2 destination : null
+Taxi-2 is empty, setting destination MGROAD by 1st passenger Passenger-2
+Taxi-2 count is : 1
+
+	 Adding new passenger : 22:14:27
+
+Passenger-3 looking for a destination INDIRANAGAR
+Passenger-3 destination : INDIRANAGAR
+Taxi-1 destination : KRPURAM
+Taxi-1 is unable to allocate for Passenger-3 with the location INDIRANAGAR
+Passenger-3 destination : INDIRANAGAR
+Taxi-2 destination : MGROAD
+Taxi-2 is unable to allocate for Passenger-3 with the location INDIRANAGAR
+Passenger-3 destination : INDIRANAGAR
+Taxi-3 destination : null
+Taxi-3 is empty, setting destination INDIRANAGAR by 1st passenger Passenger-3
+Taxi-3 count is : 1
+
+	 Adding new passenger : 22:14:30
+
+Passenger-4 looking for a destination WHITEFIELD
+Passenger-4 destination : WHITEFIELD
+Taxi-1 destination : KRPURAM
+Taxi-1 is unable to allocate for Passenger-4 with the location WHITEFIELD
+Passenger-4 destination : WHITEFIELD
+Taxi-2 destination : MGROAD
+Taxi-2 is unable to allocate for Passenger-4 with the location WHITEFIELD
+Passenger-4 destination : WHITEFIELD
+Taxi-3 destination : INDIRANAGAR
+Taxi-3 is unable to allocate for Passenger-4 with the location WHITEFIELD
+Passenger-4 destination : WHITEFIELD
+Taxi-4 destination : null
+Taxi-4 is empty, setting destination WHITEFIELD by 1st passenger Passenger-4
+Taxi-4 count is : 1
+
+	 Adding new passenger : 22:14:33
+
+Passenger-5 looking for a destination MGROAD
+Passenger-5 destination : MGROAD
+Taxi-1 destination : KRPURAM
+Taxi-1 is unable to allocate for Passenger-5 with the location MGROAD
+Passenger-5 destination : MGROAD
+Taxi-2 destination : MGROAD
+Found taxi with same destination MGROAD
+Taxi-2 count is : 2
+
+	 Adding new passenger : 22:14:36
+
+Passenger-6 looking for a destination HEBBAL
+Passenger-6 destination : HEBBAL
+Taxi-1 destination : KRPURAM
+Taxi-1 is unable to allocate for Passenger-6 with the location HEBBAL
+Passenger-6 destination : HEBBAL
+Taxi-2 destination : MGROAD
+Taxi-2 is unable to allocate for Passenger-6 with the location HEBBAL
+Passenger-6 destination : HEBBAL
+Taxi-3 destination : INDIRANAGAR
+Taxi-3 is unable to allocate for Passenger-6 with the location HEBBAL
+Passenger-6 destination : HEBBAL
+Taxi-4 destination : WHITEFIELD
+Taxi-4 is unable to allocate for Passenger-6 with the location HEBBAL
+Passenger-6 destination : HEBBAL
+Taxi-5 destination : null
+Taxi-5 is empty, setting destination HEBBAL by 1st passenger Passenger-6
+Taxi-5 count is : 1
+
+	 Adding new passenger : 22:14:39
+
+Passenger-7 looking for a destination KRPURAM
+Passenger-7 destination : KRPURAM
+Taxi-1 destination : KRPURAM
+Found taxi with same destination KRPURAM
+Taxi-1 count is : 2
+
+	 Adding new passenger : 22:14:42
+
+Passenger-8 looking for a destination WHITEFIELD
+Passenger-8 destination : WHITEFIELD
+Taxi-1 destination : KRPURAM
+Taxi-1 is unable to allocate for Passenger-8 with the location WHITEFIELD
+Passenger-8 destination : WHITEFIELD
+Taxi-2 destination : MGROAD
+Taxi-2 is unable to allocate for Passenger-8 with the location WHITEFIELD
+Passenger-8 destination : WHITEFIELD
+Taxi-3 destination : INDIRANAGAR
+Taxi-3 is unable to allocate for Passenger-8 with the location WHITEFIELD
+Passenger-8 destination : WHITEFIELD
+Taxi-4 destination : WHITEFIELD
+Found taxi with same destination WHITEFIELD
+Taxi-4 count is : 2
+
+	 Adding new passenger : 22:14:45
+
+Passenger-9 looking for a destination SARJAPUR
+Passenger-9 destination : SARJAPUR
+Taxi-1 destination : KRPURAM
+Taxi-1 is unable to allocate for Passenger-9 with the location SARJAPUR
+Passenger-9 destination : SARJAPUR
+Taxi-2 destination : MGROAD
+Taxi-2 is unable to allocate for Passenger-9 with the location SARJAPUR
+Passenger-9 destination : SARJAPUR
+Taxi-3 destination : INDIRANAGAR
+Taxi-3 is unable to allocate for Passenger-9 with the location SARJAPUR
+Passenger-9 destination : SARJAPUR
+Taxi-4 destination : WHITEFIELD
+Taxi-4 is unable to allocate for Passenger-9 with the location SARJAPUR
+Passenger-9 destination : SARJAPUR
+Taxi-5 destination : HEBBAL
+Taxi-5 is unable to allocate for Passenger-9 with the location SARJAPUR
+No cab found for Passenger-9, So he/she added to Passenger queue
+
+	 Adding new passenger : 22:14:48
+
+Passenger-10 looking for a destination MGROAD
+Passenger-10 destination : MGROAD
+Taxi-1 destination : KRPURAM
+Taxi-1 is unable to allocate for Passenger-10 with the location MGROAD
+Passenger-10 destination : MGROAD
+Taxi-2 destination : MGROAD
+Found taxi with same destination MGROAD
+Taxi-2 count is : 3
+
+	 Adding new passenger : 22:14:51
+
+Passenger-11 looking for a destination PEENYA
+Passenger-11 destination : PEENYA
+Taxi-1 destination : KRPURAM
+Taxi-1 is unable to allocate for Passenger-11 with the location PEENYA
+Passenger-11 destination : PEENYA
+Taxi-2 destination : MGROAD
+Taxi-2 is unable to allocate for Passenger-11 with the location PEENYA
+Passenger-11 destination : PEENYA
+Taxi-3 destination : INDIRANAGAR
+Taxi-3 is unable to allocate for Passenger-11 with the location PEENYA
+Passenger-11 destination : PEENYA
+Taxi-4 destination : WHITEFIELD
+Taxi-4 is unable to allocate for Passenger-11 with the location PEENYA
+Passenger-11 destination : PEENYA
+Taxi-5 destination : HEBBAL
+Taxi-5 is unable to allocate for Passenger-11 with the location PEENYA
+No cab found for Passenger-11, So he/she added to Passenger queue
+
+	 Adding new passenger : 22:14:54
+
+Passenger-12 looking for a destination SARJAPUR
+Passenger-12 destination : SARJAPUR
+Taxi-1 destination : KRPURAM
+Taxi-1 is unable to allocate for Passenger-12 with the location SARJAPUR
+Passenger-12 destination : SARJAPUR
+Taxi-2 destination : MGROAD
+Taxi-2 is unable to allocate for Passenger-12 with the location SARJAPUR
+Passenger-12 destination : SARJAPUR
+Taxi-3 destination : INDIRANAGAR
+Taxi-3 is unable to allocate for Passenger-12 with the location SARJAPUR
+Passenger-12 destination : SARJAPUR
+Taxi-4 destination : WHITEFIELD
+Taxi-4 is unable to allocate for Passenger-12 with the location SARJAPUR
+Passenger-12 destination : SARJAPUR
+Taxi-5 destination : HEBBAL
+Taxi-5 is unable to allocate for Passenger-12 with the location SARJAPUR
+No cab found for Passenger-12, So he/she added to Passenger queue
+
+	 Adding new passenger : 22:14:57
+
+Passenger-13 looking for a destination WHITEFIELD
+Passenger-13 destination : WHITEFIELD
+Taxi-1 destination : KRPURAM
+Taxi-1 is unable to allocate for Passenger-13 with the location WHITEFIELD
+Passenger-13 destination : WHITEFIELD
+Taxi-2 destination : MGROAD
+Taxi-2 is unable to allocate for Passenger-13 with the location WHITEFIELD
+Passenger-13 destination : WHITEFIELD
+Taxi-3 destination : INDIRANAGAR
+Taxi-3 is unable to allocate for Passenger-13 with the location WHITEFIELD
+Passenger-13 destination : WHITEFIELD
+Taxi-4 destination : WHITEFIELD
+Found taxi with same destination WHITEFIELD
+Taxi-4 count is : 3
+
+	 Adding new passenger : 22:15:00
+
+Passenger-14 looking for a destination HEBBAL
+Passenger-14 destination : HEBBAL
+Taxi-1 destination : KRPURAM
+Taxi-1 is unable to allocate for Passenger-14 with the location HEBBAL
+Passenger-14 destination : HEBBAL
+Taxi-2 destination : MGROAD
+Taxi-2 is unable to allocate for Passenger-14 with the location HEBBAL
+Passenger-14 destination : HEBBAL
+Taxi-3 destination : INDIRANAGAR
+Taxi-3 is unable to allocate for Passenger-14 with the location HEBBAL
+Passenger-14 destination : HEBBAL
+Taxi-4 destination : WHITEFIELD
+Taxi-4 is unable to allocate for Passenger-14 with the location HEBBAL
+Passenger-14 destination : HEBBAL
+Taxi-5 destination : HEBBAL
+Found taxi with same destination HEBBAL
+Taxi-5 count is : 2
+
+	 Adding new passenger : 22:15:03
+
+Passenger-15 looking for a destination SARJAPUR
+Passenger-15 destination : SARJAPUR
+Taxi-1 destination : KRPURAM
+Taxi-1 is unable to allocate for Passenger-15 with the location SARJAPUR
+Passenger-15 destination : SARJAPUR
+Taxi-2 destination : MGROAD
+Taxi-2 is unable to allocate for Passenger-15 with the location SARJAPUR
+Passenger-15 destination : SARJAPUR
+Taxi-3 destination : INDIRANAGAR
+Taxi-3 is unable to allocate for Passenger-15 with the location SARJAPUR
+Passenger-15 destination : SARJAPUR
+Taxi-4 destination : WHITEFIELD
+Taxi-4 is unable to allocate for Passenger-15 with the location SARJAPUR
+Passenger-15 destination : SARJAPUR
+Taxi-5 destination : HEBBAL
+Taxi-5 is unable to allocate for Passenger-15 with the location SARJAPUR
+No cab found for Passenger-15, So he/she added to Passenger queue
+
+	 Adding new passenger : 22:15:06
+
+Passenger-16 looking for a destination KORAMANGLA
+Passenger-16 destination : KORAMANGLA
+Taxi-1 destination : KRPURAM
+Taxi-1 is unable to allocate for Passenger-16 with the location KORAMANGLA
+Passenger-16 destination : KORAMANGLA
+Taxi-2 destination : MGROAD
+Taxi-2 is unable to allocate for Passenger-16 with the location KORAMANGLA
+Passenger-16 destination : KORAMANGLA
+Taxi-3 destination : INDIRANAGAR
+Taxi-3 is unable to allocate for Passenger-16 with the location KORAMANGLA
+Passenger-16 destination : KORAMANGLA
+Taxi-4 destination : WHITEFIELD
+Taxi-4 is unable to allocate for Passenger-16 with the location KORAMANGLA
+Passenger-16 destination : KORAMANGLA
+Taxi-5 destination : HEBBAL
+Taxi-5 is unable to allocate for Passenger-16 with the location KORAMANGLA
+No cab found for Passenger-16, So he/she added to Passenger queue
+
+	 Adding new passenger : 22:15:09
+
+Passenger-17 looking for a destination PEENYA
+Passenger-17 destination : PEENYA
+Taxi-1 destination : KRPURAM
+Taxi-1 is unable to allocate for Passenger-17 with the location PEENYA
+Passenger-17 destination : PEENYA
+Taxi-2 destination : MGROAD
+Taxi-2 is unable to allocate for Passenger-17 with the location PEENYA
+Passenger-17 destination : PEENYA
+Taxi-3 destination : INDIRANAGAR
+Taxi-3 is unable to allocate for Passenger-17 with the location PEENYA
+Passenger-17 destination : PEENYA
+Taxi-4 destination : WHITEFIELD
+Taxi-4 is unable to allocate for Passenger-17 with the location PEENYA
+Passenger-17 destination : PEENYA
+Taxi-5 destination : HEBBAL
+Taxi-5 is unable to allocate for Passenger-17 with the location PEENYA
+No cab found for Passenger-17, So he/she added to Passenger queue
+
+	 Adding new passenger : 22:15:12
+
+Passenger-18 looking for a destination WHITEFIELD
+Passenger-18 destination : WHITEFIELD
+Taxi-1 destination : KRPURAM
+Taxi-1 is unable to allocate for Passenger-18 with the location WHITEFIELD
+Passenger-18 destination : WHITEFIELD
+Taxi-2 destination : MGROAD
+Taxi-2 is unable to allocate for Passenger-18 with the location WHITEFIELD
+Passenger-18 destination : WHITEFIELD
+Taxi-3 destination : INDIRANAGAR
+Taxi-3 is unable to allocate for Passenger-18 with the location WHITEFIELD
+Passenger-18 destination : WHITEFIELD
+Taxi-4 destination : WHITEFIELD
+Found taxi with same destination WHITEFIELD
+Taxi-4 count is : 4
+
+	 Adding new passenger : 22:15:15
+
+Passenger-19 looking for a destination PEENYA
+Passenger-19 destination : PEENYA
+Taxi-1 destination : KRPURAM
+Taxi-1 is unable to allocate for Passenger-19 with the location PEENYA
+Passenger-19 destination : PEENYA
+Taxi-2 destination : MGROAD
+Taxi-2 is unable to allocate for Passenger-19 with the location PEENYA
+Passenger-19 destination : PEENYA
+Taxi-3 destination : INDIRANAGAR
+Taxi-3 is unable to allocate for Passenger-19 with the location PEENYA
+Taxi-4 is full, So taxi leaving to its destination WHITEFIELD
+New Taxi name : Taxi-6
+
+	 Adding new taxi : 22:15:15
+Taxi-6 added time : 22:15:15
+Taxi added to Taxi Stand
+Passenger-19 destination : PEENYA
+Taxi-5 destination : HEBBAL
+Taxi-5 is unable to allocate for Passenger-19 with the location PEENYA
+No cab found for Passenger-19, So he/she added to Passenger queue
+New Taxi name : Taxi-7
+
+	 Adding new taxi : 22:15:18
+Taxi-7 added time : 22:15:18
+Taxi added to Taxi Stand
+Due to Timeout !!! The Taxi  is : Taxi-1 leaving to :KRPURAM
+Due to Timeout !!! The Taxi  is : Taxi-2 leaving to :MGROAD
+Due to Timeout !!! The Taxi  is : Taxi-3 leaving to :INDIRANAGAR
+Due to Timeout !!! The Taxi  is : Taxi-5 leaving to :HEBBAL
+
+	 Adding new passenger : 22:15:18
+
+Passenger-20 looking for a destination MGROAD
+Passenger-20 destination : MGROAD
+Taxi-6 destination : null
+Taxi-6 is empty, setting destination MGROAD by 1st passenger Passenger-20
+Taxi-6 count is : 1
+
+	 Adding new passenger : 22:15:21
+
+Passenger-21 looking for a destination SARJAPUR
+Passenger-21 destination : SARJAPUR
+Taxi-6 destination : MGROAD
+Taxi-6 is unable to allocate for Passenger-21 with the location SARJAPUR
+Passenger-21 destination : SARJAPUR
+Taxi-7 destination : null
+Taxi-7 is empty, setting destination SARJAPUR by 1st passenger Passenger-21
+Taxi-7 count is : 1
+
+	 Adding new passenger : 22:15:24
+
+Passenger-22 looking for a destination KRPURAM
+Passenger-22 destination : KRPURAM
+Taxi-6 destination : MGROAD
+Taxi-6 is unable to allocate for Passenger-22 with the location KRPURAM
+Passenger-22 destination : KRPURAM
+Taxi-7 destination : SARJAPUR
+Taxi-7 is unable to allocate for Passenger-22 with the location KRPURAM
+No cab found for Passenger-22, So he/she added to Passenger queue
+
+	 Adding new passenger : 22:15:27
+
+Passenger-23 looking for a destination JAYANAGAR
+Passenger-23 destination : JAYANAGAR
+Taxi-6 destination : MGROAD
+Taxi-6 is unable to allocate for Passenger-23 with the location JAYANAGAR
+Passenger-23 destination : JAYANAGAR
+Taxi-7 destination : SARJAPUR
+Taxi-7 is unable to allocate for Passenger-23 with the location JAYANAGAR
+No cab found for Passenger-23, So he/she added to Passenger queue
+
+	 Adding new passenger : 22:15:30
+
+Passenger-24 looking for a destination KORAMANGLA
+Passenger-24 destination : KORAMANGLA
+Taxi-6 destination : MGROAD
+Taxi-6 is unable to allocate for Passenger-24 with the location KORAMANGLA
+Passenger-24 destination : KORAMANGLA
+Taxi-7 destination : SARJAPUR
+Taxi-7 is unable to allocate for Passenger-24 with the location KORAMANGLA
+No cab found for Passenger-24, So he/she added to Passenger queue
+
+	 Adding new passenger : 22:15:33
+
+Passenger-25 looking for a destination SARJAPUR
+Passenger-25 destination : SARJAPUR
+Taxi-6 destination : MGROAD
+Taxi-6 is unable to allocate for Passenger-25 with the location SARJAPUR
+Passenger-25 destination : SARJAPUR
+Taxi-7 destination : SARJAPUR
+Found taxi with same destination SARJAPUR
+Taxi-7 count is : 2
+
+	 Adding new passenger : 22:15:36
+
+Passenger-26 looking for a destination PEENYA
+Passenger-26 destination : PEENYA
+Taxi-6 destination : MGROAD
+Taxi-6 is unable to allocate for Passenger-26 with the location PEENYA
+Passenger-26 destination : PEENYA
+Taxi-7 destination : SARJAPUR
+Taxi-7 is unable to allocate for Passenger-26 with the location PEENYA
+No cab found for Passenger-26, So he/she added to Passenger queue
+
+	 Adding new passenger : 22:15:39
+
+Passenger-27 looking for a destination PEENYA
+Passenger-27 destination : PEENYA
+Taxi-6 destination : MGROAD
+Taxi-6 is unable to allocate for Passenger-27 with the location PEENYA
+Passenger-27 destination : PEENYA
+Taxi-7 destination : SARJAPUR
+Taxi-7 is unable to allocate for Passenger-27 with the location PEENYA
+No cab found for Passenger-27, So he/she added to Passenger queue
+
+	 Adding new passenger : 22:15:42
+
+Passenger-28 looking for a destination PEENYA
+Passenger-28 destination : PEENYA
+Taxi-6 destination : MGROAD
+Taxi-6 is unable to allocate for Passenger-28 with the location PEENYA
+Passenger-28 destination : PEENYA
+Taxi-7 destination : SARJAPUR
+Taxi-7 is unable to allocate for Passenger-28 with the location PEENYA
+No cab found for Passenger-28, So he/she added to Passenger queue
+
+	 Adding new passenger : 22:15:45
+
+Passenger-29 looking for a destination KORAMANGLA
+Passenger-29 destination : KORAMANGLA
+Taxi-6 destination : MGROAD
+Taxi-6 is unable to allocate for Passenger-29 with the location KORAMANGLA
+Passenger-29 destination : KORAMANGLA
+Taxi-7 destination : SARJAPUR
+Taxi-7 is unable to allocate for Passenger-29 with the location KORAMANGLA
+No cab found for Passenger-29, So he/she added to Passenger queue
+
+	 Adding new passenger : 22:15:48
+
+Passenger-30 looking for a destination WHITEFIELD
+Passenger-30 destination : WHITEFIELD
+Taxi-6 destination : MGROAD
+Taxi-6 is unable to allocate for Passenger-30 with the location WHITEFIELD
+Passenger-30 destination : WHITEFIELD
+Taxi-7 destination : SARJAPUR
+Taxi-7 is unable to allocate for Passenger-30 with the location WHITEFIELD
+No cab found for Passenger-30, So he/she added to Passenger queue
+
+	 Adding new passenger : 22:15:51
+
+Passenger-31 looking for a destination PEENYA
+Passenger-31 destination : PEENYA
+Taxi-6 destination : MGROAD
+Taxi-6 is unable to allocate for Passenger-31 with the location PEENYA
+Passenger-31 destination : PEENYA
+Taxi-7 destination : SARJAPUR
+Taxi-7 is unable to allocate for Passenger-31 with the location PEENYA
+No cab found for Passenger-31, So he/she added to Passenger queue
+
+	 Adding new passenger : 22:15:54
+
+Passenger-32 looking for a destination PEENYA
+Passenger-32 destination : PEENYA
+Taxi-6 destination : MGROAD
+Taxi-6 is unable to allocate for Passenger-32 with the location PEENYA
+Passenger-32 destination : PEENYA
+Taxi-7 destination : SARJAPUR
+Taxi-7 is unable to allocate for Passenger-32 with the location PEENYA
+No cab found for Passenger-32, So he/she added to Passenger queue
+
+	 Adding new passenger : 22:15:57
+
+Passenger-33 looking for a destination INDIRANAGAR
+Passenger-33 destination : INDIRANAGAR
+Taxi-6 destination : MGROAD
+Taxi-6 is unable to allocate for Passenger-33 with the location INDIRANAGAR
+Passenger-33 destination : INDIRANAGAR
+Taxi-7 destination : SARJAPUR
+Taxi-7 is unable to allocate for Passenger-33 with the location INDIRANAGAR
+No cab found for Passenger-33, So he/she added to Passenger queue
+
+	 Adding new passenger : 22:16:00
+
+Passenger-34 looking for a destination JAYANAGAR
+Passenger-34 destination : JAYANAGAR
+Taxi-6 destination : MGROAD
+Taxi-6 is unable to allocate for Passenger-34 with the location JAYANAGAR
+Passenger-34 destination : JAYANAGAR
+Taxi-7 destination : SARJAPUR
+Taxi-7 is unable to allocate for Passenger-34 with the location JAYANAGAR
+No cab found for Passenger-34, So he/she added to Passenger queue
+
+	 Adding new passenger : 22:16:03
+
+Passenger-35 looking for a destination WHITEFIELD
+Passenger-35 destination : WHITEFIELD
+Taxi-6 destination : MGROAD
+Taxi-6 is unable to allocate for Passenger-35 with the location WHITEFIELD
+Passenger-35 destination : WHITEFIELD
+Taxi-7 destination : SARJAPUR
+Taxi-7 is unable to allocate for Passenger-35 with the location WHITEFIELD
+No cab found for Passenger-35, So he/she added to Passenger queue
+
+	 Adding new passenger : 22:16:06
+
+Passenger-36 looking for a destination HSRLAYOUT
+Passenger-36 destination : HSRLAYOUT
+Taxi-6 destination : MGROAD
+Taxi-6 is unable to allocate for Passenger-36 with the location HSRLAYOUT
+Passenger-36 destination : HSRLAYOUT
+Taxi-7 destination : SARJAPUR
+Taxi-7 is unable to allocate for Passenger-36 with the location HSRLAYOUT
+No cab found for Passenger-36, So he/she added to Passenger queue
+
+	 Adding new passenger : 22:16:09
+
+Passenger-37 looking for a destination SARJAPUR
+Passenger-37 destination : SARJAPUR
+Taxi-6 destination : MGROAD
+Taxi-6 is unable to allocate for Passenger-37 with the location SARJAPUR
+Passenger-37 destination : SARJAPUR
+Taxi-7 destination : SARJAPUR
+Found taxi with same destination SARJAPUR
+Taxi-7 count is : 3
+
+	 Adding new passenger : 22:16:12
+
+Passenger-38 looking for a destination KORAMANGLA
+Passenger-38 destination : KORAMANGLA
+Taxi-6 destination : MGROAD
+Taxi-6 is unable to allocate for Passenger-38 with the location KORAMANGLA
+Passenger-38 destination : KORAMANGLA
+Taxi-7 destination : SARJAPUR
+Taxi-7 is unable to allocate for Passenger-38 with the location KORAMANGLA
+No cab found for Passenger-38, So he/she added to Passenger queue
+Due to Timeout !!! The Taxi  is : Taxi-6 leaving to :MGROAD
+
+	 Adding new passenger : 22:16:15
+
+Passenger-39 looking for a destination KORAMANGLA
+Passenger-39 destination : KORAMANGLA
+Taxi-7 destination : SARJAPUR
+Taxi-7 is unable to allocate for Passenger-39 with the location KORAMANGLA
+No cab found for Passenger-39, So he/she added to Passenger queue
+New Taxi name : Taxi-8
+
+	 Adding new taxi : 22:16:18
+Taxi-8 added time : 22:16:18
+Taxi added to Taxi Stand
+Due to Timeout !!! The Taxi  is : Taxi-7 leaving to :SARJAPUR
+
+	 Adding new passenger : 22:16:18
+
+Passenger-40 looking for a destination JAYANAGAR
+Passenger-40 destination : JAYANAGAR
+Taxi-8 destination : null
+Taxi-8 is empty, setting destination JAYANAGAR by 1st passenger Passenger-40
+Taxi-8 count is : 1
+
+	 Adding new passenger : 22:16:21
+
+Passenger-41 looking for a destination KORAMANGLA
+Passenger-41 destination : KORAMANGLA
+Taxi-8 destination : JAYANAGAR
+Taxi-8 is unable to allocate for Passenger-41 with the location KORAMANGLA
+No cab found for Passenger-41, So he/she added to Passenger queue
+
+	 Adding new passenger : 22:16:24
+
+Passenger-42 looking for a destination MGROAD
+Passenger-42 destination : MGROAD
+Taxi-8 destination : JAYANAGAR
+Taxi-8 is unable to allocate for Passenger-42 with the location MGROAD
+No cab found for Passenger-42, So he/she added to Passenger queue
+
+	 Adding new passenger : 22:16:27
+
+Passenger-43 looking for a destination PEENYA
+Passenger-43 destination : PEENYA
+Taxi-8 destination : JAYANAGAR
+Taxi-8 is unable to allocate for Passenger-43 with the location PEENYA
+No cab found for Passenger-43, So he/she added to Passenger queue
+
+	 Adding new passenger : 22:16:30
+
+Passenger-44 looking for a destination HEBBAL
+Passenger-44 destination : HEBBAL
+Taxi-8 destination : JAYANAGAR
+Taxi-8 is unable to allocate for Passenger-44 with the location HEBBAL
+No cab found for Passenger-44, So he/she added to Passenger queue
