@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Implementation-Title: SpringMVCAssignment Maven Webapp
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: anand.raj
+Implementation-Vendor-Id: Spring
+Build-Jdk: 1.8.0_201
+Created-By: Maven Integration for Eclipse
+
