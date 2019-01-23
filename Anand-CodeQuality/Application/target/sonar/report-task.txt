@@ -1,0 +1,6 @@
+projectKey=CodeQuality:Application
+serverUrl=http://localhost:9000
+serverVersion=7.5.0.20543
+dashboardUrl=http://localhost:9000/dashboard?id=CodeQuality%3AApplication
+ceTaskId=AWh6DRxMzYX8ZV3qPqkU
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AWh6DRxMzYX8ZV3qPqkU
