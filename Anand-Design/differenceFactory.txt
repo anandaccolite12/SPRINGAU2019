@@ -1,0 +1,8 @@
+								Difference between Factory and Abstract factory design pattern
+Factory design:
+	1. In this design, we define an interface which will expose a method which will create objects for us.
+	2. Return type of that method is never be a concrete type rather it will be some interface or abstract class
+	3. It produce instances of implementations of a particular interface 
+Abstract Factory design:
+	 1. In this design, we define an interface which will create families of related or dependent objects.
+	 2. The ConcreteFactory object can be implemented as a Singleton as only one instance of the ConcreteFactory object is needed.
